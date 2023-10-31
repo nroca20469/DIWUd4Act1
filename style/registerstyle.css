@@ -1,0 +1,58 @@
+
+/* Para todo el formulario */
+form {
+    background-image: url('../img/back/totoro.png');
+    background-size: 150% 100%;
+    background-position-x: center;
+    background-blend-mode:hue;
+    border-radius: 7%;
+    opacity: 0.8;
+}
+
+/* Para todos los label */
+label{
+    color: #ffff;
+    opacity: 1;
+}
+
+/* Para todas las imagenes */
+img{
+    opacity: 0.8;
+}   
+
+/* Solo para los form-check */
+.mb-3 .form-check{ 
+    height: 110px;
+}
+
+
+/* Para todos los inout del formulario */
+form input{
+    opacity: 1.5;
+    width: 80% !important;
+    align-self: center !important;
+    margin-left: 10%;
+}
+
+/* Para cuando pasamos el raton por encima de la img */
+.form-check label img:hover{
+	opacity: 1;
+    width: 100px;
+}
+
+/* Para cuando los inputs esten checkeados que las imagees: */
+label > input:checked + img{
+    opacity:1;
+    width: 100px;   
+}
+
+/*label > input:checked {
+    cursor: not-allowed;
+}*/
+/*.btns:disabled {
+    pointer-events: none;
+}*/
+
+/*.mb-3 .form-check label img:active {  
+    visibility: hidden;  /* esconde el que clicas, buscar como hacerlo al reves, mientras se muestra al principio, pero solo mientras clicas */
+/*}*/
